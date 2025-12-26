@@ -1,0 +1,180 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio — Editorial Grid (Static)</title>
+    <meta name="description" content="A restrained, editorial grid layout with a wide, scrollable project image area." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header" aria-label="Site header">
+      <div class="wrap">
+        <!-- Left: short identity line -->
+        <div class="head-left">
+          <h1 class="site-title">OTHER MEANS</h1>
+          <p class="site-subtitle">
+            is a graphic design studio in Brooklyn, NY.
+          </p>
+        </div>
+
+        <!-- Center: three-column intro (editorial) -->
+        <div class="head-center" aria-label="Studio description">
+          <p>
+            Other Means works with institutions, organizations, and brands who
+            present, support, and contribute to contemporary culture. We design
+            dynamic typographic identities and brand strategies that thrive in
+            digital environments, and make books, exhibitions, signage systems,
+            and websites that emerge from a deep engagement with our clients’
+            missions and histories.
+          </p>
+          <p>
+            We are not interested in neutral systems that transfer information.
+            We play with words to shape meaning, challenge established
+            traditions, and investigate popular visual culture to design new
+            visual languages that comment on our present moment.
+          </p>
+          <p>
+            Over the last decade, the studio has launched new institutions,
+            reintroduced legacy organizations, and worked one-on-one with
+            directors, artists, and in-house teams. We collaborate closely, and
+            stay involved long after roll-out, ensuring that the work we produce
+            outlasts the moment in which it was conceived.
+          </p>
+        </div>
+
+        <!-- Right column removed per request -->
+      </div>
+    </header>
+
+    <main id="content" class="site-main">
+      <div class="wrap grid">
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar" aria-label="Sidebar lists">
+          <section class="list-block" aria-labelledby="currently">
+            <h2 id="currently" class="block-title">CURRENTLY</h2>
+            <div class="two-col">
+              <ul class="plain-list">
+                <li><a href="#">James Fuentes</a></li>
+                <li><a href="#">KAJE</a></li>
+                <li><a href="#">Poetry Society of America</a></li>
+                <li><a href="#">Philip Guston Foundation</a></li>
+                <li><a href="#">Roulette</a></li>
+                <li><a href="#">Yale School of Art</a></li>
+              </ul>
+              <ul class="plain-list muted">
+                <li>Ongoing</li>
+                <li>Ongoing</li>
+                <li>Public Art</li>
+                <li>Website</li>
+                <li>Website, etc.</li>
+                <li>Website</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="list-block" aria-labelledby="clients">
+            <h2 id="clients" class="block-title">SELECTED CLIENTS</h2>
+            <div class="two-col">
+              <ul class="plain-list">
+                <li><a href="#">Artnet</a></li>
+                <li><a href="#">Baggu</a></li>
+                <li><a href="#">Brooklyn Museum</a></li>
+                <li><a href="#">CCVA at Harvard</a></li>
+                <li><a href="#">The Drawing Center</a></li>
+                <li><a href="#">E-flux</a></li>
+                <li><a href="#">Figma</a></li>
+                <li><a href="#">Forge Project</a></li>
+                <li><a href="#">Forensic Architecture</a></li>
+                <li><a href="#">Greene Naftali</a></li>
+                <li><a href="#">ICA Philadelphia</a></li>
+                <li><a href="#">Japan Society</a></li>
+                <li><a href="#">Lighthouse Works</a></li>
+                <li><a href="#">Matthew Marks</a></li>
+                <li><a href="#">Mercer Union</a></li>
+                <li><a href="#">MoMA PS1</a></li>
+                <li><a href="#">The New York Times</a></li>
+                <li><a href="#">Pace</a></li>
+                <li><a href="#">The Shed</a></li>
+                <li><a href="#">Storm King Art Center</a></li>
+                <li><a href="#">Verso Books</a></li>
+              </ul>
+
+              <ul class="plain-list muted">
+                <li>Identity</li>
+                <li>Publication</li>
+                <li>Identity</li>
+                <li>Website</li>
+                <li>Website</li>
+                <li>Website</li>
+                <li>Publication</li>
+                <li>Identity, Website</li>
+                <li>Exhibition</li>
+                <li>Gallery</li>
+                <li>Identity, Website</li>
+                <li>Exhibition</li>
+                <li>Identity, Website</li>
+                <li>Website</li>
+                <li>Website</li>
+                <li>Publication, Identity</li>
+                <li>Illustration</li>
+                <li>Publications</li>
+                <li>Identity, Signage, Art Direction</li>
+                <li>Publication</li>
+                <li>Covers</li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+
+        <!-- MAIN CONTENT (image extended into removed right area) -->
+        <section class="main" aria-label="Featured project">
+          <div class="project">
+            <div class="project-viewport" aria-label="Scrollable project images">
+              <!-- Horizontal scroll container (scroll-snap). Use your own images. -->
+              <div class="scroller" id="scroller" tabindex="0" role="group" aria-roledescription="scroll area">
+                <figure class="slide">
+                  <!-- Replace with your own non-proprietary image -->
+                  <img
+                    src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1800&q=80"
+                    alt="Editorial project image 01"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <figure class="slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1455885666463-5f7f6ac1f1f7?auto=format&fit=crop&w=1800&q=80"
+                    alt="Editorial project image 02"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <figure class="slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=80"
+                    alt="Editorial project image 03"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <footer class="project-meta" aria-label="Image caption">
+              <p class="caption">
+                Theater of Operations: The Gulf Wars 1991–2011. MoMA PS1, 2019.
+                Photo: Tina Tyrell <span class="count">1 of 3</span>
+              </p>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
