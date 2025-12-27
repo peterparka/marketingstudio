@@ -1,11 +1,3 @@
-/* styles.css */
-/* ------------------------------------------------------------
-   Editorial Grid / restrained studio aesthetic
-   - System fonts (no external dependencies)
-   - Left sidebar lists + wide image area spanning center/right
-   - Scrollable (not carousel) project images using scroll-snap
------------------------------------------------------------- */
-
 :root{
   --bg: #ffffff;
   --fg: #111111;
