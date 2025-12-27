@@ -1,7 +1,3 @@
-// script.js
-// Minimal enhancement for the scrollable image area:
-// - Drag to scroll with mouse/pointer (feels “studio site”)
-// - Updates the “X of N” count based on nearest slide
 (() => {
   const scroller = document.getElementById("scroller");
   if (!scroller) return;
